@@ -705,7 +705,7 @@ h1.slogan {
 /* Connexion */
 
 .connexion {
-  margin-top: 45px;
+  margin-top: 1.2em;
   padding: 15px;
   border: 1px solid $brandblue;
   text-align: center;
@@ -725,6 +725,16 @@ h1.slogan {
 .connexion .btn:focus,
 .connexion .btn:hover {
   background-color: $brandblue;
+}
+
+#sidebar {
+  .subscription {
+    .nav-pills {
+      > li {
+        margin-bottom: 10px;
+      }
+    }
+  }
 }
 
 .subscription a {
@@ -1355,6 +1365,16 @@ h3#myModalLabel {
 
 #payplans-upgrade-to {
   max-width: 250px
+}
+
+#pp {
+  a {
+    color: $brandorange;
+  }
+
+  .btn-pp-primary {
+    background-color: $brandorange !important;
+  }
 }
 
 //
