@@ -1,0 +1,98 @@
+body {
+	padding: 1em;
+	font-family: TimesNewRoman, "Times New Roman", Times;
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 22px;
+	line-height: 22px;
+	font-weight: normal;
+}
+
+h4 {
+	font-size: 18px;
+	line-height: 18px;
+}
+
+div.invoice {
+ 	width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table.header {
+	border-bottom: 2px solid #666;
+	margin-bottom: 10px;
+}
+
+table.summary {
+	margin-bottom: 20px;
+}
+
+table.particulars {
+	margin-top: 20px
+}
+
+table.particulars thead tr {
+	border-bottom: 1px double #666;
+}
+
+table.particulars th {
+	border-bottom: 2px solid #333;
+	padding: 10px 8px;
+	background: #ccc;
+	color: #333
+}
+
+table.particulars td {
+	padding: 8px;
+	font-size: 16px;
+	border-bottom: 1px solid #666;
+}
+
+table.particulars tr.last td {
+	border-top: 2px solid #333;
+	border-bottom: 0px solid;
+	padding: 10px 8px;
+	background: #ccc;
+	color: #333
+}
+
+h3.label{
+font-weight: 400;
+font-variant: small-caps;
+}
+
+.label {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #999999;
+	color: #fff;
+}
+
+.label-success {
+	background: #468847;
+}
+
+.label-warning {
+	background-color: #f89406;
+}
+
+.label-important {
+	background-color: #b94a48;
+}
+
+.label-inverse {
+	background-color: #333333;
+}
+
+
+
+h5.notes {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
