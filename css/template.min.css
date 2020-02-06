@@ -1372,6 +1372,14 @@ h1.slogan {
 .calltoaction .finder button {
   margin-left: 0; }
 
+.calltoaction ul.nav
+> li:nth-child(4)
+> a:hover,
+.calltoaction ul.nav
+> li:nth-child(4)
+> a:focus {
+  background-color: #ee9638; }
+
 .finder button span {
   width: 100%; }
 
@@ -2077,7 +2085,17 @@ h3#myModalLabel {
   .slogan {
     font-size: 18px; }
   #content-bottom-1 {
-    margin-bottom: 45px; } }
+    margin-bottom: 45px; }
+  li.item-187 {
+    margin-right: 70px !important; }
+  li.item-494 {
+    display: none !important; }
+  nav.calltoaction ul.nav > li > a.icon {
+    top: 16px; }
+  .navbar-default .navbar-toggle {
+    top: 16px; }
+  .leftmenu {
+    display: none; } }
 
 @media (max-width: 767px) {
   img[style*="right"] {
@@ -2101,10 +2119,34 @@ h3#myModalLabel {
 
 @media (min-width: 992px) {
   nav.calltoaction ul.nav > li.item-193 {
+    display: none; }
+  li.item-152 {
     display: none; } }
 
 @media (max-width: 1199px) {
   nav.navigation ul.nav > li > a {
     padding-right: 5px;
     padding-left: 5px; } }
+
+.checkbox input[type="checkbox"] {
+  margin-top: 2px !important;
+  margin-left: 0 !important; }
+
+input#adherent_test_email_consentement0,
+input#adherent_consentement0 {
+  width: auto !important;
+  margin-top: 8px !important; }
+
+.cck_adherent_test_email_consentement_text,
+.cck_adherent_consentement_texte {
+  padding: 0 !important; }
+
+.form-group.freetext {
+  margin: 0 !important; }
+
+.checkbox {
+  margin: 0 !important; }
+
+.checkbox label input[type="checkbox"] {
+  margin-left: -20px !important; }
 /*# sourceMappingURL=template.min.css.map */

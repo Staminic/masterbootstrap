@@ -575,6 +575,22 @@
 		"oAP": "/html/com_payplans/dashboard/subscription/default.php",
 		"oF": 0
 		},
+	"/html/com_payplans/emails/subscription/admin.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/com_payplans/emails/subscription/admin.php",
+		"oF": 0
+		},
+	"/html/com_payplans/emails/template.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/com_payplans/emails/template.php",
+		"oF": 0
+		},
 	"/html/com_payplans/invoice/item/default.php": {
 		"cB": 0,
 		"ft": 8192,

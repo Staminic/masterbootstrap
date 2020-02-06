@@ -166,7 +166,7 @@ defined('_JEXEC') or die('Unauthorized Access');
 
 					<?php if (!$subscription->isOnHold() || $subscription->actions) { ?>
 					<div class="o-grid__cell o-grid__cell--auto-size o-grid__cell--right" style="flex: auto;">
-						<div class="o-btn-toolbar">
+						<div class="o-btn-toolbar" style="display: flex; justify-content: flex-end;">
 
 							<?php if ($subscription->actions) { ?>
 								<?php foreach ($subscription->actions as $action) { ?>
@@ -178,14 +178,14 @@ defined('_JEXEC') or die('Unauthorized Access');
 
 								<?php if ($this->config->get('user_delete_orders')) { ?>
 									<div class="o-btn-group">
-										<a href="javascript:void(0);" class="btn btn--link t-text--danger t-lg-pl--no"  data-delete-subscription data-key="<?php echo $subscription->order->getKey();?>">
+										<a href="javascript:void(0);" class="btn btn--link t-text--danger t-lg-pl--no"  data-delete-subscription data-key="<?php echo $subscription->order->getKey();?>" style="margin: .6em 1.2em;">
 											<i class="fa fa-times"></i>&nbsp; <?php echo JText::_('COM_PP_DELETE_ORDER');?>
 										</a>
 									</div>
 								<?php } ?>
 
 								<div class="o-btn-group">
-									<a href="<?php echo PPR::_('index.php?option=com_payplans&view=checkout&invoice_key=' . $subscription->pendingInvoice->getKey() . '&tmpl=component'); ?>" class="btn btn-pp-primary">
+									<a href="<?php echo PPR::_('index.php?option=com_payplans&view=checkout&invoice_key=' . $subscription->pendingInvoice->getKey() . '&tmpl=component'); ?>" class="btn btn-pp-primary" style="margin: .6em 1.2em;">
 									<?php echo JText::_('COM_PP_COMPLETE_ORDER_NOW');?>
 									</a>
 								</div>
