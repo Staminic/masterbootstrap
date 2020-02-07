@@ -20,9 +20,6 @@ defined('_JEXEC') or die('Unauthorized Access');
 				<div class="t-lg-mb--lg">
 					<div class="pp-result-container">
 						<div class="pp-result">
-							<div class="pp-result__image">
-								<img src="<?php echo JURI::root();?>media/com_payplans/images/pp-thankyou.png" />
-							</div>
 
 							<div class="pp-result__title">
 								<?php echo JText::_('COM_PP_THANK_YOU_FOR_PAYMENT'); ?>
