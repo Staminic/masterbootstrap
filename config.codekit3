@@ -615,6 +615,14 @@
 		"oAP": "/html/com_payplans/payment/cancel/default.php",
 		"oF": 0
 		},
+	"/html/com_payplans/thanks/default/default.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/html/com_payplans/thanks/default/default.php",
+		"oF": 0
+		},
 	"/html/com_users/login/default_login.php": {
 		"cB": 0,
 		"ft": 8192,
