@@ -1964,6 +1964,8 @@ h3#myModalLabel {
 
 #pp .btn-pp-primary {
   background-color: #ee9638 !important; }
+  #pp .btn-pp-primary:hover, #pp .btn-pp-primary:focus {
+    background-color: #ee9638 !important; }
 
 #footer {
   padding-top: 15px;

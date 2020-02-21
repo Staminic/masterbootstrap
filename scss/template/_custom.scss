@@ -1383,6 +1383,11 @@ h3#myModalLabel {
 
   .btn-pp-primary {
     background-color: $brandorange !important;
+
+    &:hover,
+    &:focus {
+      background-color: $brandorange !important;
+    }
   }
 }
 
