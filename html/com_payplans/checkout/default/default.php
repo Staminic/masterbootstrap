@@ -164,7 +164,7 @@ defined('_JEXEC') or die('Unauthorized Access');
 						<div class="o-card__body">
 							<div class="o-grid-sm">
 								<div class="o-grid-sm__cell o-grid-sm__cell--center">
-									<a href="<?php echo PPR::_('index.php?option=com_payplans&view=plan&from=checkout');?>" style="color: rgba(238, 150, 56, 1);">
+									<a href="adhesion<?php // echo PPR::_('index.php?option=com_payplans&view=plan&from=checkout');?>" style="color: rgba(238, 150, 56, 1);">
 										&larr; <?php echo JText::_('COM_PP_CANCEL_AND_RETURN');?>
 									</a>
 								</div>
